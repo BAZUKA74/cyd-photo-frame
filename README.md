@@ -76,6 +76,15 @@ All current files are in **[GitHub Releases](https://github.com/BAZUKA74/cyd-pho
 
 The application checks GitHub Releases for updates from its black menu.
 
+## Release channels
+
+| Version | Channel | Meaning |
+|---|---|---|
+| `v1.0`–`v1.99` | **BETA** | Active development and testing. Features may still change or contain bugs. |
+| `v2.0` and newer | **STABLE** | Main functionality has been tested and is ready for everyday use. |
+
+GitHub releases in the v1.x series are marked as **Pre-release**. The tag stays numeric (for example, `v1.15`) so in-app update checks remain compatible.
+
 ## Source code
 
 - `android/` — Android application source;
