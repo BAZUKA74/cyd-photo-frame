@@ -83,7 +83,7 @@ The application checks GitHub Releases for updates from its black menu.
 | `v1.0`–`v1.99` | **BETA** | Active development and testing. Features may still change or contain bugs. |
 | `v2.0` and newer | **STABLE** | Main functionality has been tested and is ready for everyday use. |
 
-GitHub releases in the v1.x series are marked as **Pre-release**. The tag stays numeric (for example, `v1.15`) so in-app update checks remain compatible.
+Releases in the v1.x series use the **`[BETA]`** prefix in their title. They remain visible as the latest release, and the tag stays numeric (for example, `v1.15`) so in-app update checks remain compatible.
 
 ## Source code
 
