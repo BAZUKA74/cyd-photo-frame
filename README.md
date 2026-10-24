@@ -80,10 +80,11 @@ The application checks GitHub Releases for updates from its black menu.
 
 | Version | Channel | Meaning |
 |---|---|---|
-| `v1.0`–`v1.99` | **BETA** | Active development and testing. Features may still change or contain bugs. |
-| `v2.0` and newer | **STABLE** | Main functionality has been tested and is ready for everyday use. |
+| `v1.0`–`v1.18` | **BETA** | Development and testing releases. |
+| `v1.19` | **STABLE** | First stable release, using the proven original LIVE drawing algorithm. |
+| `v2.0` and newer | **STABLE** | Future stable release line. |
 
-Releases in the v1.x series use the **`[BETA]`** prefix in their title. They remain visible as the latest release, and the tag stays numeric (for example, `v1.15`) so in-app update checks remain compatible.
+Beta releases use the **`[BETA]`** prefix and stable releases use **`[STABLE]`**. Version `v1.19` is the first stable exception before the future v2.x stable line.
 
 ## Source code
 
