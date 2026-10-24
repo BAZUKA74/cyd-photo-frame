@@ -93,6 +93,19 @@ All current files are in **[GitHub Releases](https://github.com/BAZUKA74/cyd-pho
 
 The application checks GitHub Releases for updates from its black menu.
 
+## Languages / Языки
+
+The Android app has a complete bilingual interface. On first launch it follows the phone language, and the language can be changed at any time from the black settings menu.
+
+Android-приложение полностью переведено на два языка. При первом запуске язык выбирается по настройкам телефона, а затем его можно переключить вручную в чёрном меню настроек.
+
+| Language / Язык | Interface | Documentation |
+|---|---|---|
+| 🇷🇺 Русский | ✅ Полностью | [README_RU.md](README_RU.md) |
+| 🇬🇧 English | ✅ Complete | [README.md](README.md) |
+
+The ESP32 screen uses compact labels and icons so the controls remain readable on the 2.8-inch display. / На экране ESP32 используются короткие подписи и значки, чтобы меню помещалось на дисплее 2,8 дюйма.
+
 ## Release channels
 
 | Version | Channel | Meaning |
