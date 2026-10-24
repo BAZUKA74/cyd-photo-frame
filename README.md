@@ -66,6 +66,22 @@ The ready-to-flash binaries target:
 > [!CAUTION]
 > Similar-looking boards can use different display controllers, pinouts, touch controllers, backlight circuits, or Flash layouts. **Do not flash the provided BIN onto another model blindly.** Read [ADAPTATION.md](ADAPTATION.md) and build a board-specific image.
 
+## Adaptation for other boards / Адаптация под другие платы
+
+The ready-made BIN is built specifically for **ESP32-2432S028 / HW-458**. If your board is different, the source code can be adapted instead of starting from scratch. Usually you need to change:
+
+- display, touch, backlight, and SD-card pins;
+- display and touch controller drivers;
+- screen resolution, rotation, Flash, and PSRAM settings;
+- the PlatformIO board profile and partition layout.
+
+Готовый BIN предназначен именно для **ESP32-2432S028 / HW-458**. Для другой платы исходный код можно адаптировать: поменять пины, драйверы экрана и тача, разрешение, настройки Flash/PSRAM и профиль PlatformIO.
+
+**[Русская инструкция по адаптации →](ADAPTATION_RU.md)** · **[English adaptation guide →](ADAPTATION.md)**
+
+> [!IMPORTANT]
+> Before flashing another board, make a Flash backup and verify its exact model. You can give the adaptation guide, board photos, and markings to an AI assistant and ask it to prepare the required configuration, but always check the resulting pinout before flashing.
+
 ## Downloads
 
 All current files are in **[GitHub Releases](https://github.com/BAZUKA74/cyd-photo-frame/releases/latest)**:
