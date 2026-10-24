@@ -93,18 +93,23 @@ All current files are in **[GitHub Releases](https://github.com/BAZUKA74/cyd-pho
 
 The application checks GitHub Releases for updates from its black menu.
 
-## Languages / Языки
+## Programming languages / Языки программирования
 
-The Android app has a complete bilingual interface. On first launch it follows the phone language, and the language can be changed at any time from the black settings menu.
+<p>
+  <img src="https://img.shields.io/badge/C%2B%2B-ESP32-00599C?style=flat-square&logo=cplusplus&logoColor=white" alt="C++">
+  <img src="https://img.shields.io/badge/Java-Android-ED8B00?style=flat-square&logo=openjdk&logoColor=white" alt="Java">
+  <img src="https://img.shields.io/badge/HTML-Web_UI-E34F26?style=flat-square&logo=html5&logoColor=white" alt="HTML">
+  <img src="https://img.shields.io/badge/CSS-Web_UI-1572B6?style=flat-square&logo=css3&logoColor=white" alt="CSS">
+  <img src="https://img.shields.io/badge/JavaScript-Web_UI-F7DF1E?style=flat-square&logo=javascript&logoColor=black" alt="JavaScript">
+</p>
 
-Android-приложение полностью переведено на два языка. При первом запуске язык выбирается по настройкам телефона, а затем его можно переключить вручную в чёрном меню настроек.
-
-| Language / Язык | Interface | Documentation |
-|---|---|---|
-| 🇷🇺 Русский | ✅ Полностью | [README_RU.md](README_RU.md) |
-| 🇬🇧 English | ✅ Complete | [README.md](README.md) |
-
-The ESP32 screen uses compact labels and icons so the controls remain readable on the 2.8-inch display. / На экране ESP32 используются короткие подписи и значки, чтобы меню помещалось на дисплее 2,8 дюйма.
+| Technology | Used for |
+|---|---|
+| **C++ / Arduino** | ESP32 firmware, display, touch, Wi-Fi, media playback and LIVE drawing |
+| **Java** | Android application, media conversion, uploader and drawing editor |
+| **HTML + CSS + JavaScript** | Web interface served directly by the ESP32 |
+| **XML + Gradle** | Android layouts, resources and build configuration |
+| **PlatformIO** | Firmware dependencies, compilation and flashing |
 
 ## Release channels
 
