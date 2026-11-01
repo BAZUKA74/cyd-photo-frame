@@ -13,6 +13,9 @@
 
 [English](README.md) · **Русский** · **[Скачать APK](https://github.com/BAZUKA74/cyd-photo-frame/releases/latest)**
 
+
+**[USB Web Flasher / Прошить плату в браузере](https://BAZUKA74.github.io/cyd-photo-frame/)** · [Flasher source / Исходники](flasher-app.js)
+
 </div>
 
 ---
